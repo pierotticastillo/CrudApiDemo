@@ -106,5 +106,5 @@ CrudApiDemo/
 
 ---
 
-💙 Hecho con amor por [Tu Nombre]
+💙 Hecho con amor por Enrique Alejandro Pierotti Castillo
 📅 Última actualización: 14/05/2026
