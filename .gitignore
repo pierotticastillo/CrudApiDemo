@@ -1,0 +1,52 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de usuario
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de ReSharper
+_ReSharper*/
+*.[rR]eSharper
+*.dotSettings.user
+
+# Archivos de Visual Studio
+.vs/
+*.suo
+*.opensdf
+*.sdf
+
+# Archivos de paquetes NuGet
+packages/
+
+# Archivos de migraciones de Entity Framework
+Migrations/
+
+# Archivos de secrets
+appsettings.Development.json
+secrets.json
+
+# Archivos de logs
+*.log
+
+# Archivos de base de datos local
+*.mdf
+*.ldf
+*.sdf
+
+# Archivos de cache
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# Archivos de IDE
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
