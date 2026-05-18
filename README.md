@@ -13,7 +13,7 @@
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/CrudApiDemo.git
+   git clone https://github.com/pierotticastillo/CrudApiDemo.git
    cd CrudApiDemo
    ```
 
