@@ -1,5 +1,7 @@
 # CrudApiDemo - API REST en .NET 10
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 🎯 Una API REST completa para gestión de productos construida con .NET 10, Entity Framework Core y Swagger.
 
 ## 🚀 Cómo ejecutar el proyecto
@@ -57,6 +59,14 @@ La API incluye documentación interactiva con Swagger. Después de ejecutar la a
 
 👉 [https://localhost:5001/swagger/index.html](https://localhost:5001/swagger/index.html)
 
+## 📬 Colección para Postman / Bruno
+
+El proyecto incluye una colección lista para importar en [Postman](https://www.postman.com/) o [Bruno](https://www.usebruno.com/):
+
+📁 [`CrudApiDemo.postman_collection.json`](CrudApiDemo.postman_collection.json)
+
+Contiene todos los endpoints preconfigurados con variables de entorno (`baseUrl`). Solo importa el archivo y comienza a probar.
+
 ## 🛠 Tecnologías utilizadas
 
 - **.NET 10** - Framework principal
@@ -69,7 +79,6 @@ La API incluye documentación interactiva con Swagger. Después de ejecutar la a
 
 ```
 CrudApiDemo/
-├── Controllers/          # Controladores
 ├── Models/               # Modelos de datos
 │   ├── AppDbContext.cs   # Contexto de base de datos
 │   └── Producto.cs       # Modelo de producto
@@ -77,6 +86,8 @@ CrudApiDemo/
 ├── Properties/           # Archivos de propiedades
 ├── appsettings.json      # Configuración
 ├── Program.cs            # Configuración y endpoints
+├── CrudApiDemo.postman_collection.json  # Colección para Postman/Bruno
+├── LICENSE               # Licencia MIT
 └── README.md             # Este archivo
 ```
 
@@ -104,7 +115,8 @@ CrudApiDemo/
 - Todos los endpoints devuelven respuestas HTTP apropiadas
 - La API está lista para producción con manejo básico de errores
 
----
+## 📄 Licencia
 
-💙 Hecho con amor por Enrique Alejandro Pierotti Castillo
-📅 Última actualización: 14/05/2026
+Este proyecto está bajo la licencia MIT. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
+
